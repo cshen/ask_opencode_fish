@@ -13,8 +13,12 @@ C Shen
 ### Fish
 
 ```fish
+# Set the model to use for command generation (optional, defaults to "github-copilot/gpt-5-mini")
+# suggestions: [ "deepseek-v4-pro", "deepseek-v4-flash" ],
+set -gx ASK_OPENCODE_MODEL "deepseek/deepseek-v4-flash"
 source ask_opencode.fish
 ```
+
 
 To make it permanent, copy or symlink into your Fish config:
 
